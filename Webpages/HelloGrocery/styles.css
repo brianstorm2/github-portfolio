@@ -12,30 +12,54 @@ h2 {
     font-size: 24px;
     text-align: center;
 }
-h3 {
-    margin-top: -40px;
-    text-align: right;
-    border-bottom: 5px solid black;
-}
 
-.header {
-    font-family: Verdana, Geneva, sans-serif;
-    font-style: normal; 
+.header, .navBar {
+    font-family: Verdana, sans-serif;
+    font-style: normal;
     font-variant: normal; 
     font-weight: 700; 
     background-color: yellow;
     margin: 0;
 }
 
+.navBar li a {
+    display: inline-block;
+    color: rgb(122,203,138);
+    text-align: center;
+    padding: 16px;
+    opacity: 1;
+    text-decoration: none;
+    justify-content: flex-end;
+}
+
+.navBar li a:hover {
+    background-color: rgb(146, 127, 0);
+    color: white;
+}
+
+.navBar li {
+    float: left;
+}
+
+.navBar {
+    list-style-type: none;
+    margin-top: -20px;
+    padding: 0;
+    overflow: hidden;
+    background-color: yellow;
+    float: right;
+    width: 100%;
+}
+
 .main-background {
     background-image: url("PXL_20230129_black.jpg");
-    padding-top: 200px;
+    padding-top: 250px;
     padding-bottom: 500px;
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0;
     opacity: 0.8;
-    margin-top: -20px;
+    margin-top: 50px;
 }
 
 .main {
