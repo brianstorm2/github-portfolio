@@ -14,7 +14,6 @@
     font-weight: 700; 
     margin-right: 200px;
     margin-top: 20px;
-    display: inline-block;
     float: right;
 }
 
@@ -49,8 +48,6 @@
 
 .main-background{
     background-image: url("booksbg.jpg");
-    background-size: cover;
-    height: 100;
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0;
@@ -133,8 +130,6 @@
 .about-background {
     background-image: url("Apple.jpg");
     background-size: cover;
-    height: 100;
-    background-size: cover;
     background-repeat: no-repeat;
     margin: 0;
     padding-top: 0px;
@@ -166,8 +161,6 @@
 
 .contact-background {
     background-image: url("board.jpg");
-    background-size: cover;
-    height: 100;
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0;
@@ -212,7 +205,7 @@
 
 .contact-background button {
     margin-left: 600px;
-    margin-top: 300px;
+    margin-top: 350px;
     position: absolute;
     font-size: 30px;
     background-color: #4e64a8;
