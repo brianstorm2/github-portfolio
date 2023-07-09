@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-variant: normal; 
+    font-weight: 500;
+    background-color: #0c00b8; 
+    height: 50px;
+    margin-top: -5%;
+    width: 100%;
+    font-size: 10px;
+}
+
+.header h1 a {
+    color: white;
+    margin-left: 5%;
+    text-decoration: none;
+}
+
+.header h1 {
+    transform: translateY(80%);
+}
+
+.navigation li {
+    list-style-type: none;
+}
+
+.navigation a {
+    float: right;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    transform: translateY(-80%);
+    margin-right: 5%;    
+}
+
+.mission-statement {
+    margin-top: 2%;
+    background-image: url(electrician-mobile.jpeg);
+    padding-top: 20%;
+    opacity: 60%;
+}
+
+.mission-statement p {
+    font-family: 'Arial Black';
+    color: white;
+    text-align: center;
+    transform: translateY(-60%);
+    max-width: 55%;
+    opacity: 100%;
+}
+
+.main {
+    font-family: 'Arial Black';
+    color: black;
+    text-align: center;
+}
