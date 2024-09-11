@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+{% load static %}
+<link rel="stylesheet" media="only screen and (max-width: 650px)" href="{% static 'mobiles.css' %}" />
+<link rel="stylesheet" media="only screen and (min-width: 651px)" href="{% static 'styles.css' %}"/>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Surrey Tutoring</title>
+
+</head>
+
+<body>
+<div class="header">
+    <div class="navBar">
+        <li><a href="{% url 'contact' %}">Contact Us</a></li>
+        <li><a href="{% url 'about' %}">About</a></li>
+        <li><a href="{% url 'index' %}">Home</a></li>
+    </div>
+</div>
+
+<div class="logo">
+    <a href="{% url 'index' %}">
+    <img src="{% static 'stlogo.png' %}">
+    </a>
+</div>
+
+<div class="contact-background">
+    <div class="contact-main">
+        <h1>Surrey Tutoring</h1>
+            <p>Please email us at <b>surreytutoringforyou@gmail.com</b> <br>or call <b>07496 041795</b>
+               to see how we can offer the best<br> tutoring services for you.
+            </p>
+    
+        <div class="contact-final">
+            <p><br>Click the contact button below to get started!</p>
+        </div>
+        <br><br>
+        <button><a href="mailto:surreytutoringforyou@gmail.com?subject=I%20want%20to%20book%20a%20tutoring%20session!">Contact </a></button>
+</div>
+
+</body>

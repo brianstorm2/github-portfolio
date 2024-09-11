@@ -1,0 +1,252 @@
+.navBar {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    float: right;
+    width: 100%;
+}
+
+.header {
+    font-family: Verdana, sans-serif;
+    font-style: normal;
+    font-variant: normal; 
+    font-weight: 700; 
+    margin-right: 200px;
+    margin-top: 20px;
+    float: right;
+}
+
+.navBar li a{
+    color: #4e64a8;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    justify-content: flex-end;
+}
+
+.navBar li a:hover {
+    background-color: #4e64a8;
+    color: white;
+}
+
+.navBar li {
+    float: right;
+}
+
+.logo a{
+    margin-left: 200px;
+    margin-top: 0px;
+    display: inline-block;
+}
+
+.logo {
+    content:' ';
+    border-bottom:2px solid #4e64a8;
+    flex-grow: 1;
+}
+
+.main-background{
+    background-image: url("booksbg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding-top: 0px;
+    padding-bottom: 1000px;
+    margin-top: 20px;
+    position: relative;
+}
+.main h1 {
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-weight: bold;
+    color: white;
+    margin-left: 300px;
+    margin-top: 50px;
+    position: absolute;
+}
+
+.main p {
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    color: white;
+    margin-left: 300px;
+    margin-top: 425px;
+    width: 600px;
+    line-height: 150%;
+    position: absolute;
+}
+
+.glidetext{
+    position: relative;
+    /*Set initial position of your text. Make it just enough to hide the text from view:*/
+    left: -500px;
+    }
+
+.info {
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    color: white;
+    margin-left: 50px;
+    margin-top: 100px;
+    line-height: 200%;
+    width: 1000px;
+    position: absolute;
+    text-align: center;
+}
+
+.dynamic_pricing {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    color: #4e64a8;
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 300px; /* Set a fixed width */
+    float: right; /* Float the pricing section to the right */
+    margin-right: 200px; /* Align with the existing right margin in your layout */
+    margin-top: 50px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1); /* Optional shadow for style */
+}
+
+.dynamic_pricing h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.dynamic_pricing ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.dynamic_pricing li {
+    margin-bottom: 15px;
+}
+
+.dynamic_pricing li p {
+    margin: 0;
+}
+.help {
+    line-height: 100%;
+    margin-top: -15px;
+}
+
+.final {
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    color: white;
+    margin-left: 15px;
+    margin-top: 300px;
+    width: 1000px;
+    position: absolute;
+    text-align: center;
+    line-height: 100%;
+}
+
+.main-background button {
+    margin-left: 425px;
+    margin-top: 820px;
+    position: absolute;
+    font-size: 30px;
+    background-color: #4e64a8;
+}
+
+.main-background a {
+    background-color: #4e64a8;
+    text-decoration: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+.about-background {
+    background-image: url("Apple.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding-top: 0px;
+    padding-bottom: 1000px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.about-main h1 {
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-weight: bold;
+    color: white;
+    margin-left: 700px;
+    margin-top: 50px;
+    position: absolute;
+}
+
+.about-main p {
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    color: white;
+    margin-left: 500px;
+    margin-top: 150px;
+    width: 900px;
+    line-height: 100%;
+    position: absolute;
+}
+
+.contact-background {
+    background-image: url("board.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding-top: 0px;
+    padding-bottom: 1000px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.contact-main h1 {
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-weight: bold;
+    color: white;
+    margin-left: 500px;
+    margin-top: 50px;
+    position: absolute;
+}
+
+.contact-main p {
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    color: white;
+    margin-left: 300px;
+    margin-top: 150px;
+    width: 1000px;
+    line-height: 100%;
+    position: absolute;
+}
+
+.contact-final {
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    color: white;
+    margin-left: -100px;
+    margin-top: 100px;
+    width: 1000px;
+    position: absolute;
+    text-align: center;
+    line-height: 100%;
+}
+
+.contact-background button {
+    margin-left: 600px;
+    margin-top: 350px;
+    position: absolute;
+    font-size: 30px;
+    background-color: #4e64a8;
+}
+
+.contact-background a {
+    background-color: #4e64a8;
+    text-decoration: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}

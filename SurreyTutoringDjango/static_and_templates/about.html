@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+{% load static %}
+<link rel="stylesheet" media="only screen and (max-width: 650px)" href="{% static 'mobiles.css' %}" />
+<link rel="stylesheet" media="only screen and (min-width: 651px)" href="{% static 'styles.css' %}"/>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Surrey Tutoring</title>
+
+</head>
+
+<body>
+    <div class="header">
+        <div class="navBar">
+            <li><a href="{% url 'contact' %}">Contact Us</a></li>
+            <li><a href="{% url 'about' %}">About</a></li>
+            <li><a href="{% url 'index' %}">Home</a></li>
+        </div>
+    </div>
+    
+    <div class="logo">
+        <a href="{% url 'index' %}">
+        <img src="{% static 'stlogo.png' %}">
+        </a>
+    </div>
+
+<div class="about-background">
+    <div class="about-main">
+    <h1>Surrey Tutoring</h1>
+        <p>We are a Bagshot based tutoring service who are more than willing to travel to other areas of Surrey, as well as offering online schooling.<br><br>
+           Our tutors have many years of experience teaching in and out of classrooms. You can trust in their expertise to further support your child's learning development.<br><br>
+           Contact us at surreytutoringforyou@gmail.com for pricing information<br><br>
+           Group tutoring sessions are also available 
+        </p>
+    </div>
+</div>
+
+</body>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+{% load static %}
+<link rel="stylesheet" media="only screen and (max-width: 650px)" href="{% static 'mobiles.css' %}" />
+<link rel="stylesheet" media="only screen and (min-width: 651px)" href="{% static 'styles.css' %}"/>
+
+<title>Surrey Tutoring</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<div class="dynamic_pricing"></div>
+<h1>Our Pricing</h1>
+<ul>
+    {% for price in prices %}
+        <li>
+            <p>{{ price.one_on_one }} - One-on-One Tutoring</p>
+            <p>{{ price.two_on_one }} - Two-on-One Tutoring</p>
+            <p>{{ price.three_on_one }} - Three-on-One Tutoring</p>
+        </li>
+
+    {% empty %}
+    <p>No pricing information available at the moment.</p>
+    {% endfor %}
+</ul>
+
+</div>
+</body>
+</html>
