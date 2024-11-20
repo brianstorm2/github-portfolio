@@ -82,6 +82,7 @@ public class Main {
                         }
                         else if (passwordAttempts >= 3) {
                             System.out.println("Access denied for security purposes. Try again later"); //attempts failsafe
+                            break;
                         }
                         else {
                             System.out.println("Wrong password, try again");
